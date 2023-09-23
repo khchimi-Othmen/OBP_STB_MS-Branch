@@ -45,4 +45,4 @@ To run this microservice locally using Docker, follow these steps:
 1. Pull the latest Docker image from Docker Hub with the dynamic tag:
 
    ```bash
-   docker pull khchimiothmen/ms-bank_branch:latest
+   docker pull khchimiothmen/ms-bank_branch:20230923182743
