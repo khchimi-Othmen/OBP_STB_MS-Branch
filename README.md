@@ -2,8 +2,6 @@
 
 A RESTful API for managing bank branches adhering to OBP (Open Bank Project) norms.
 
-![Build and Deploy](https://github.com/khchimi-Othmen/OBP_STB_MS-Branch/workflows/Build%20and%20Deploy/badge.svg)
-
 ## Features
 
 - Retrieve branch information by ID
@@ -36,14 +34,15 @@ A RESTful API for managing bank branches adhering to OBP (Open Bank Project) nor
 
 Run unit tests: `mvn test`
 
-## CI/CD Pipeline
+## Build and Deploy
 
-This microservice is built and deployed using a GitHub Actions workflow. On every push to the `master` branch, our CI workflow builds the application, runs unit tests, and deploys it.
+This microservice is available as a Docker image that you can run locally.
 
-## Contributing
+### Running the Docker Image
 
-Contributions are welcome! If you have suggestions, find issues, or want to contribute in any way, please feel free to open an issue or submit a pull request. We value your input and collaboration.
+To run this microservice locally using Docker, follow these steps:
 
-## License
+1. Pull the Docker image from Docker Hub:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+   ```bash
+   docker pull your-docker-image-name
