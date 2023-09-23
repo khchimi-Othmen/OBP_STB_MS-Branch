@@ -36,13 +36,12 @@ Run unit tests: `mvn test`
 
 ## Build and Deploy
 
-This microservice is available as a Docker image with a dynamic timestamp-based tag that changes each time it's built.
+This microservice is available as a Docker image with timestamp-based tags that correspond to specific build times. You can pull and run the Docker image using a specific tag as follows:
 
-### Running the Docker Image
+1. **Choose a timestamp-based tag** from the available options on Docker Hub. Each tag corresponds to a specific build of the microservice.
 
-To run this microservice locally using Docker, follow these steps:
-
-1. Pull the latest Docker image from Docker Hub with the dynamic tag:
+2. **Pull the Docker image** with the selected tag. Replace `<timestamp-tag>` with the desired timestamp-based tag. For example, to pull an image created on September 23, 2023, at 18:27:43, you can use the following command:
 
    ```bash
    docker pull khchimiothmen/ms-bank_branch:20230923182743
+
