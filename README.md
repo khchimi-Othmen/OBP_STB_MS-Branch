@@ -43,13 +43,11 @@ This microservice is available as a Docker image with timestamp-based tags that 
 
 2. **Pull the Docker image** with the selected tag. Replace `<timestamp-tag>` with the desired timestamp-based tag. For example, to pull an image created on September 23, 2023, at 18:27:43, you can use the following command:
 
-To retrieve the Docker image from Docker Hub, use the following command:
+   To retrieve the Docker image from Docker Hub, use the following command:
 
-bash
-docker pull khchimiothmen/ms-bank_branch:20230923182743
+   docker pull khchimiothmen/ms-bank_branch:20230923182743
 
-This command retrieves the Docker image from Docker Hub.
-
+   This command retrieves the Docker image from Docker Hub.
 
 3. **Run the Docker container** based on the pulled image. This command maps port 8075 from the container to port 8075 on your local machine:
 
