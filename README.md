@@ -36,13 +36,13 @@ Run unit tests: `mvn test`
 
 ## Build and Deploy
 
-This microservice is available as a Docker image that you can run locally.
+This microservice is available as a Docker image with a dynamic timestamp-based tag that changes each time it's built.
 
 ### Running the Docker Image
 
 To run this microservice locally using Docker, follow these steps:
 
-1. Pull the Docker image from Docker Hub:
+1. Pull the latest Docker image from Docker Hub with the dynamic tag:
 
    ```bash
-   docker pull your-docker-image-name
+   docker pull khchimiothmen/ms-bank_branch:$(date +'%Y%m%d%H%M%S')
