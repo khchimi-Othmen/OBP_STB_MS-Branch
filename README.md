@@ -28,7 +28,7 @@ A RESTful API for managing bank branches adhering to OBP (Open Bank Project) nor
 ## Usage
 
 1. Start the application: `mvn spring-boot:run`
-2. Access the Swagger API documentation: Open your browser and go to: `http://localhost:8080/swagger-ui.html`
+2. Access the Swagger API documentation: Open your browser and go to: `http://localhost:8075/swagger-ui.html`
 
 ## Testing
 
