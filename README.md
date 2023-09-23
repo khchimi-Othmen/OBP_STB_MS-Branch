@@ -13,7 +13,7 @@ Branch Microservice - OBP Compliant for STB Bank" - RESTful API for managing ban
 
 ### Prerequisites
 
-- Java JDK 8 or higher
+- Java JDK 17 
 - Maven
 
 ### Installation
@@ -28,6 +28,12 @@ Branch Microservice - OBP Compliant for STB Bank" - RESTful API for managing ban
 ## Testing
 ### Unit Tests
 Run unit tests: `mvn test`
+
+# Branch Microservice - OBP Compliant for STB Bank
+
+This microservice is built and deployed using the following GitHub Actions workflow:
+
+
 
 ### Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
