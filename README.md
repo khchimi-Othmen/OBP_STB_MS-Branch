@@ -14,7 +14,7 @@ A RESTful API for managing bank branches adhering to OBP (Open Bank Project) nor
 
 **Prerequisites:**
 
-* Java JDK 17
+* Java JDK : 17
 * Maven
 
 **Installation:**
